@@ -1,0 +1,122 @@
+body {
+    background: radial-gradient(circle at top left, #020617, #000000);
+    color: #e6f1ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+    background: linear-gradient(90deg, #001f3f, #002f6c, #001f3f);
+    box-shadow: 0 0 20px rgba(0, 170, 255, 0.5);
+}
+
+.navbar-brand {
+    color: #4dd0ff !important;
+    text-shadow: 0 0 10px rgba(77, 208, 255, 0.9);
+}
+
+.nav-link {
+    color: #cfe8ff !important;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #4dd0ff !important;
+    text-shadow: 0 0 8px #4dd0ff;
+}
+
+
+.carousel-inner img {
+    filter: brightness(75%);
+}
+
+.carousel-caption {
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(77, 208, 255, 0.4);
+    box-shadow: 0 0 20px rgba(77, 208, 255, 0.5);
+}
+
+
+h2 {
+    color: #4dd0ff;
+    text-shadow: 0 0 12px rgba(77, 208, 255, 0.8);
+    animation: glow 3s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #00ffff, 0 0 10px #0099ff;
+    }
+
+    to {
+        text-shadow: 0 0 20px #00ccff, 0 0 40px #00ffff;
+    }
+}
+
+
+.list-group-item {
+    background: rgba(0, 30, 60, 0.85);
+    color: #d7e9ff;
+    border: 1px solid rgba(77, 208, 255, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list-group-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(77, 208, 255, 0.6);
+}
+
+a {
+    color: #4dd0ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #82f7ff;
+}
+
+
+.btn-primary {
+    background: linear-gradient(135deg, #003366, #0066cc);
+    border: none;
+    box-shadow: 0 0 10px rgba(77, 208, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #0066cc, #00aaff);
+    box-shadow: 0 0 25px rgba(77, 208, 255, 0.8);
+    transform: scale(1.05);
+}
+
+
+.modal-content {
+    background: rgba(10, 20, 40, 0.95);
+    color: #e6f1ff;
+    border: 1px solid rgba(77, 208, 255, 0.4);
+    box-shadow: 0 0 25px rgba(77, 208, 255, 0.6);
+}
+
+.modal-header,
+.modal-footer {
+    border-color: rgba(77, 208, 255, 0.2);
+}
+
+
+#successAlert {
+    background: linear-gradient(90deg, #003366, #0099ff);
+    border: none;
+    box-shadow: 0 0 20px rgba(77, 208, 255, 0.6);
+    color: #fff;
+}
+
+
+footer {
+    background: linear-gradient(90deg, #001f3f, #002f6c);
+    box-shadow: 0 -2px 15px rgba(77, 208, 255, 0.4);
+}
+
+footer p {
+    color: #82f7ff;
+    text-shadow: 0 0 5px rgba(77, 208, 255, 0.8);
+}
